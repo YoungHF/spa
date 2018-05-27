@@ -19,6 +19,9 @@ script:
     - npm run lint
     - npm run test
 
+after_script:
+    - npm run coverage
+
 email:
   recipients:
     - 929662659@qq.com
