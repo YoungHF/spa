@@ -24,3 +24,4 @@ email:
     - 929662659@qq.com
   on_success: never
   on_failure: always
+
