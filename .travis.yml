@@ -3,10 +3,13 @@ dist: trusty
 language: node_js
 
 node_js:
-    - "8.9.0"
+    - "8.10.0"
+
+before_install:
+  - npm i -g npm
 
 install:
-  - npm i
+  - npm ci
 
 cache:
   directories:
@@ -15,6 +18,9 @@ cache:
 script:
     - npm run lint
     - npm run test
+
+after_script:
+    - npm run coverage
 
 email:
   recipients:

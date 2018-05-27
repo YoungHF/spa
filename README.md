@@ -1,5 +1,8 @@
 # spa
 
+![https://travis-ci.org/YoungHF/spa.svg?branch=master](https://travis-ci.org/YoungHF/spa.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/YoungHF/spa/badge.svg)](https://coveralls.io/github/YoungHF/spa)
+
 ## Build Setup
 
 ``` bash
