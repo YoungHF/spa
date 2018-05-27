@@ -3,13 +3,10 @@ dist: trusty
 language: node_js
 
 node_js:
-    - "8.10.0"
-
-before_install:
-  - npm i -g npm
+    - "8.9.0"
 
 install:
-  - npm ci
+  - npm i
 
 cache:
   directories:
