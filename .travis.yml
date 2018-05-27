@@ -18,9 +18,10 @@ cache:
 script:
     - npm run lint
     - npm run test
+    - npm run cover
 
-after_script:
-    - npm run coverage
+after_success:
+    - npm run coveralls
 
 email:
   recipients:
