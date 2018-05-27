@@ -11,8 +11,7 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run lint && npm run unit",
     "lint": "eslint --ext .js src",
-    "cover": "./node_modules/.bin/istanbul cover _mocha",
-    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
+    "coveralls": "cat ./test/unit/coverage/lcov.info | ./node_modules/.bin/coveralls",
     "build": "node build/build.js"
   },
   "devDependencies": {
